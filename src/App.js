@@ -1,10 +1,12 @@
 import './App.css';
+import Navbars from './components/topbar/Topbar';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div >
-    D3 website
-    </div>
+    <Router>
+      <Navbars />
+    </Router>
   );
 }
 
