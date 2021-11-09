@@ -1,6 +1,7 @@
 import React from 'react';
 import './topbar.css';
 import {Link } from 'react-router-dom';
+import Logo from '../../assets/logo.png'
 
 
 const Navbars = () => {
@@ -21,37 +22,37 @@ const Navbars = () => {
 
                   </li>
                   <li className="topListItem">
-                      <Link className="link" to="/">
+                      <Link className="link" to="/about">
                       About
                       </Link>
 
                   </li>
                   <li className="topListItem">
-                      <Link className="link" to="/">
+                      <Link className="link" to="/service">
                       Service
                       </Link>
 
                   </li>
                   <li className="topListItem">
-                      <Link className="link" to="/">
+                      <Link className="link" to="/gallery">
                       Gallery
                       </Link>
 
                   </li>
                   <li className="topListItem">
-                      <Link className="link" to="/">
+                      <Link className="link" to="/team">
                       Team
                       </Link>
 
                   </li>
                   <li className="topListItem">
-                      <Link className="link" to="/">
+                      <Link className="link" to="/blog">
                       Blog
                       </Link>
 
                   </li>
                   <li className="topListItem">
-                      <Link className="link" to="/">
+                      <Link className="link" to="/contact">
                       Contact
                       </Link>
 
@@ -61,7 +62,7 @@ const Navbars = () => {
 
           </div>
           <div className="topRight">
-hi
+           <img src= {Logo} alt="logo" className="topImg" />
           </div>
        </div>
     )
